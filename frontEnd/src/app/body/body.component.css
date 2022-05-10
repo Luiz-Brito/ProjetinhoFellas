@@ -1,0 +1,153 @@
+.home {
+    background-image: url('../../assets/img/fundo-home2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.home-img {
+    object-fit: cover;
+}
+
+.home-left,
+.home-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info {
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 2%;
+}
+
+.home-left h1{
+    color: red;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.home-left p{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.about {
+    background-color: #222;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-right h2{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 15px 0;
+}
+
+.about-right p {
+    margin: 50px 2% 0 2%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.pro {
+    padding-top: 1px;
+    background-color: #222;
+}
+
+.pro-title h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 15px 0;
+    background-color: red;
+}
+
+.polaroid {
+    background-color: white;
+    padding: 15px 15px 30px;
+    border-radius: 20px;
+}
+
+.polaroid img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 20px;
+    background-position: center;
+}
+
+.products {
+    margin: auto;
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+.caption {
+    text-align: center;
+    color: black;
+}
+
+.caption h3{
+    font-size: 17px;
+    padding: 10px;
+}
+
+.caption h2 {
+    font-size: 14px;
+}
+
+.title-cap {
+    color: #a71410;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.desc-cap {
+    text-align: justify;
+}
+
+.price-cap {
+    color: #a71410;
+    font-size: 21px;
+}
+
+.pedido {
+    padding: 100px 0;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #a11;
+}
+
+.btn:hover {
+    background-color: #a11;
+    color: white;
+}
